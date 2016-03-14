@@ -5,7 +5,7 @@ Script for visualizing reaction network using vis.js library.
 1. Install vis.js library (http://visjs.org/)
 2. Use set_path.py to change path to folder with installed vis.js
 
-   Example:
+Example:
 
       python set_path.py create_graph.py "/my/path/before/folder/vis/"
 
