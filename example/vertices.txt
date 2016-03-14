@@ -1,0 +1,29 @@
+vertex ID: -2863105318922136846
+2 KaiC(S{u})::cyt
+1 KaiB::cyt
+
+vertex ID: -6982340040440559921
+1 KaiB.KaiC(S{u})::cyt
+1 KaiC(S{u})::cyt
+
+vertex ID: 3951339381353600796
+1 KaiB.KaiC(S{p})::cyt
+1 KaiC(S{u})::cyt
+
+vertex ID: -4587135276195094273
+1 KaiC(S{p})::cyt
+1 KaiC(S{u})::cyt
+1 KaiB::cyt
+
+vertex ID: 1994452981033593410
+1 KaiB.KaiC(S{u})::cyt
+1 KaiC(S{p})::cyt
+
+vertex ID: -8935036396702117195
+1 KaiB.KaiC(S{p})::cyt
+1 KaiC(S{p})::cyt
+
+vertex ID: -693196703220768060
+2 KaiC(S{p})::cyt
+1 KaiB::cyt
+

@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <title>Network | Interaction events</title>
+
+    <script type="text/javascript" src="/home/matho/node_modules/vis/dist/vis.js"></script>
+    <link href="/home/matho/node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css"/>
+
+    <style type="text/css">
+       #mynetwork {
+            width: 800px;
+            height: 500px;
+            border: 1px solid lightgray;
+        }
+	    #rectangle {
+		    text-align: center;
+		    font-weight: bold;
+	    }
+}
+    </style>
+</head>
+<body>
+
+<div id="mynetwork"></div>
+<div id="rectangle"style="width:800px;height:100%;border:1px solid #000;"> </div>
+
+<script type="text/javascript">
+    // create an array with nodes
+        var nodes = new vis.DataSet([
+	{id: 1, label: '1', title: 'ID -2863105318922136846', text: '2 KaiC(S{u})::cyt<br>1 KaiB::cyt'},
+	{id: 2, label: '2', title: 'ID -6982340040440559921', text: '1 KaiB.KaiC(S{u})::cyt<br>1 KaiC(S{u})::cyt'},
+	{id: 3, label: '3', title: 'ID 3951339381353600796', text: '1 KaiB.KaiC(S{p})::cyt<br>1 KaiC(S{u})::cyt'},
+	{id: 4, label: '4', title: 'ID -4587135276195094273', text: '1 KaiC(S{p})::cyt<br>1 KaiC(S{u})::cyt<br>1 KaiB::cyt'},
+	{id: 5, label: '5', title: 'ID 1994452981033593410', text: '1 KaiB.KaiC(S{u})::cyt<br>1 KaiC(S{p})::cyt'},
+	{id: 6, label: '6', title: 'ID -8935036396702117195', text: '1 KaiB.KaiC(S{p})::cyt<br>1 KaiC(S{p})::cyt'},
+	{id: 7, label: '7', title: 'ID -693196703220768060', text: '2 KaiC(S{p})::cyt<br>1 KaiB::cyt<br>'},
+	]);
+
+	// create an array with edges
+	var edges = new vis.DataSet([
+	{id: 1, from: 2, to: 1, arrows:'to', text: '1 KaiB.KaiC(S{u})::cyt => 1 KaiC(S{u})::cyt + 1 KaiB::cyt'},
+	{id: 2, from: 3, to: 4, arrows:'to', text: '1 KaiB.KaiC(S{p})::cyt => 1 KaiC(S{p})::cyt + 1 KaiB::cyt'},
+	{id: 3, from: 6, to: 7, arrows:'to', text: '1 KaiB.KaiC(S{p})::cyt => 1 KaiC(S{p})::cyt + 1 KaiB::cyt'},
+	{id: 4, from: 4, to: 5, arrows:'to', text: '1 KaiC(S{u})::cyt + 1 KaiB::cyt => 1 KaiB.KaiC(S{u})::cyt'},
+	{id: 5, from: 2, to: 3, arrows:'to', text: '1 KaiB.KaiC(S{u})::cyt => 1 KaiB.KaiC(S{p})::cyt'},
+	{id: 6, from: 5, to: 4, arrows:'to', text: '1 KaiB.KaiC(S{u})::cyt => 1 KaiC(S{u})::cyt + 1 KaiB::cyt'},
+	{id: 7, from: 7, to: 6, arrows:'to', text: '1 KaiC(S{p})::cyt + 1 KaiB::cyt => 1 KaiB.KaiC(S{p})::cyt'},
+	{id: 8, from: 4, to: 3, arrows:'to', text: '1 KaiC(S{p})::cyt + 1 KaiB::cyt => 1 KaiB.KaiC(S{p})::cyt'},
+	{id: 9, from: 1, to: 2, arrows:'to', text: '1 KaiC(S{u})::cyt + 1 KaiB::cyt => 1 KaiB.KaiC(S{u})::cyt'},
+	{id: 10, from: 5, to: 6, arrows:'to', text: '1 KaiB.KaiC(S{u})::cyt => 1 KaiB.KaiC(S{p})::cyt'},
+	]);
+
+    // create a network
+    var container = document.getElementById('mynetwork');
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    var options = {
+		layout:{randomSeed:2},
+		physics: {
+			stabilization: false,
+			barnesHut: {
+				gravitationalConstant: -10000,
+				centralGravity: 0.75,
+				springConstant: 0.08,
+				springLength: 150
+			},
+			maxVelocity: 146,
+            solver: 'barnesHut',
+            timestep: 0.50,
+            stabilization: {iterations: 150}
+        },
+		nodes: {
+            size: 15,
+            font: {
+                size: 20
+            },
+            borderWidth: 2,
+			borderWidthSelected: 4
+        },
+        edges: {
+            width: 4,
+			selectionWidth: function (width) {return width*2.5;}
+        },
+		interaction: {
+          navigationButtons: true,
+          keyboard: true,
+		  hover: true,
+		  tooltipDelay: 500,
+        }
+	};
+    var network = new vis.Network(container, data, options);
+	var stabil = true;
+
+    network.on("click", function (params) {
+        params.event = "[original event]";
+		var tmp = " ";
+	
+	
+		for (var i = 1; i <= nodes.length; i++) {
+        	if (nodes.get(i).id == params.nodes) {
+				tmp = nodes.get(i).text;
+			};
+    	};
+		
+		if(params.nodes.length === 0 && params.edges.length > 0) {
+			for (var i = 1; i <= edges.length; i++) {
+				if (edges.get(i).id == params.edges) {
+					tmp = edges.get(i).text;
+				};
+			};
+		};
+		
+		document.getElementById('rectangle').innerHTML = '<div style="width:800px;height:100%;text-align:center;border:0px solid #000;">' + tmp + '</div>';
+    });
+	
+	network.on("stabilized", function (params) {
+	if(stabil) {
+		network.fit();
+		stabil = false;
+	};	
+	});
+	
+	network.on("doubleClick", function (params) {
+        params.event = "[original event]";
+		network.focus(params.nodes);
+	});
+
+</script>
+
+<script src="../../googleAnalytics.js"></script>
+</body>
+</html>
