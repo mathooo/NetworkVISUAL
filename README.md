@@ -14,4 +14,4 @@ Run script create_graph.py with passed input vertices, edges and output html fil
 
 Example:
 
-    python create_graph.py vertices.txt edges.txt output.html
+      python create_graph.py vertices.txt edges.txt output.html
