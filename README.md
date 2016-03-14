@@ -5,7 +5,7 @@ Script for visualizing reaction network using vis.js library.
 1. Install vis.js library (http://visjs.org/)
 2. Use set_path.py to change path to folder with installed vis.js
 
-   Example:
+Example:
 
       python set_path.py create_graph.py "/my/path/before/folder/vis/"
 
@@ -14,4 +14,10 @@ Run script create_graph.py with passed input vertices, edges and output html fil
 
 Example:
 
-    python create_graph.py vertices.txt edges.txt output.html
+      python create_graph.py vertices.txt edges.txt output.html
+
+Run script set_path.py to change path in an exisiting .html file (if you did not created it)
+
+Example:
+
+      python set_path.py network.html "/my/path/before/folder/vis/"
