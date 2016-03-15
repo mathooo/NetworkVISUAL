@@ -1,6 +1,17 @@
 import sys
 import copy
+import collections
+from compiler.ast import flatten
 
+"""
+Writes one of the two static parts to output.
+Both are statically included at the end of this file.
+:param me: this file
+:param output_file: output html file
+:param start: string determining beginning of the part
+:param end: string determining end of the part
+:param mode: append or write
+"""
 def write_part(me, output_file, start, end, mode):
     f = open(output_file, mode)
     fp = open(me)
@@ -15,32 +26,61 @@ def write_part(me, output_file, start, end, mode):
             f.write(line + '\n')
     f.close()
 
+"""
+Creates collection from given side
+:param side: given string containing side of a rule
+:return: collection
+"""
+def create_collection(side):
+    side = map(lambda x: x.split(" "), side.split(" + "))
+    print side
+    return collections.Counter(flatten(map(lambda x: [x[1]]*int(x[0]), side)))
+
+"""
+Removes pairs of same agents from left and right side, i.e. creates a reaction.
+:param From: left-hand-side
+:param To: right-hand-side
+:return: sides with reduced agents
+"""
 def create_reaction(From, To):
-    From = From.split(" + ")
-    To = To.split(" + ")
+    From = create_collection(From)
+    To = create_collection(To)
 
-    from_back = copy.deepcopy(From)
-    to_back = copy.deepcopy(To)
+    left = From - To
+    right = To - From
 
-    new_from = []
-    new_to = []
+    left = map(lambda (a,b): b.__str__() + " " + a, left.items())
+    right = map(lambda (a,b): b.__str__() + " " + a, right.items())
 
-    for left_item in From:
-        left_items = left_item.split(" ")
-        for right_item in To:
-            right_items = right_item.split(" ")
-            if left_items[1] == right_items[1]:
-                if int(left_items[0]) > int(right_items[0]):
-                    new_from.append(str(int(left_items[0]) - int(right_items[0])) + " " + left_items[1])
-                elif int(left_items[0]) < int(right_items[0]):
-                    new_to.append(str(int(right_items[0]) - int(left_items[0])) + " " + left_items[1])
-                from_back.remove(left_item)
-                to_back.remove(right_item)
+    return " + ".join(left), " + ".join(right)
 
-    new_from += from_back
-    new_to += to_back
+"""
+Writes new vertex to output file
+:param vertex_id: internal ID of the vertex
+:param ID: external ID of the vertex (hash)
+:param label: explicit information about content of the vertex
+:param output_file: output html file
+"""
+def write_entity(vertex_id, ID, label, output_file):
+    output = open(output_file, 'a')
+    output.write("\t{id: " + vertex_id.__str__() + ", label: '" + vertex_id.__str__() + "', title: 'ID " + ID.__str__() + "', text: '" + label.__str__() + "'},\n")
+    output.close()
 
-    return " + ".join(new_from), " + ".join(new_to)
+"""
+Writes new edge to output file
+:param edge_id: ID of the edge
+:param left_index: internal ID of out-coming vertex
+:param right_index: internal ID of in-coming vertex
+:param From: left-hand-side of reaction
+:param To: right-hand-side of the reaction
+:param output_file: output html file
+"""
+def write_reaction(edge_id, left_index, right_index, From, To, output_file):
+    output = open(output_file, 'a')
+    output.write("\t{id: " + edge_id.__str__() + ", from: " + left_index.__str__() + ", to: " + right_index.__str__() +
+                 ", arrows:'to', text: '" + From.__str__() + " => " + To.__str__() + "'},\n")
+    output.close()
+
 
 me = sys.argv[-4]
 vertices_file = sys.argv[-3]
@@ -49,11 +89,8 @@ output_file = sys.argv[-1]
 
 write_part(me, output_file, "FIRST PART START", "FIRST PART END", "w")
 
-output = open(output_file, 'a')
-
 labels = []
 IDs = []
-
 label = ""
 the_first_time = True
 vertex_id = 0
@@ -72,7 +109,7 @@ with open(vertices_file) as vertices:
                     the_first_time = False
                 else:
                     label = label[:-4]
-                    output.write("\t{id: " + vertex_id.__str__() + ", label: '" + vertex_id.__str__() + "', title: 'ID " + ID.__str__() + "', text: '" + label.__str__() + "'},\n")
+                    write_entity(vertex_id, ID, label, output_file)
                     for_edge_label = for_edge_label[:-3]
                     labels.append(for_edge_label)
                     for_edge_label = ""
@@ -85,16 +122,17 @@ with open(vertices_file) as vertices:
                 label += line.__str__() + "<br>"
                 for_edge_label += line.__str__() + " + "
 
-output.write("\t{id: " + vertex_id.__str__() + ", label: '" + vertex_id.__str__() + "', title: 'ID " + ID.__str__() + "', text: '" + label.__str__() + "'},\n")
+write_entity(vertex_id, ID, label, output_file)
 for_edge_label = for_edge_label[:-3]
 labels.append(for_edge_label)
 
+output = open(output_file, 'a')
 output.write("\t]);\n\n\t// create an array with edges\n\tvar edges = new vis.DataSet([\n")
+output.close()
 
 '''
 Import edges
 '''
-
 edge_id = 0
 with open(edges_file) as edges:
     for line in edges:
@@ -109,9 +147,7 @@ with open(edges_file) as edges:
         left_index += 1
         right_index += 1
 
-        output.write("\t{id: " + edge_id.__str__() + ", from: " + left_index.__str__() + ", to: " + right_index.__str__() + ", arrows:'to', text: '" + From.__str__() + " => " + To.__str__() + "'},\n")
-
-output.close()
+        write_reaction(edge_id, left_index, right_index, From, To, output_file)
 
 write_part(me, output_file, "SECOND PART START", "SECOND PART END", "a")
 
