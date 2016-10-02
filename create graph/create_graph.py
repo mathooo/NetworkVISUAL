@@ -33,7 +33,6 @@ Creates collection from given side
 """
 def create_collection(side):
     side = map(lambda x: x.split(" "), side.split(" + "))
-    print side
     return collections.Counter(flatten(map(lambda x: [x[1]]*int(x[0]), side)))
 
 """
@@ -216,17 +215,20 @@ SECOND PART START
                 size: 20
             },
             borderWidth: 2,
-			borderWidthSelected: 4
+			borderWidthSelected: 4,
+            color:{highlight:{border: '#B20F0F', background: 'red'}}
         },
         edges: {
             width: 4,
-			selectionWidth: function (width) {return width*2.5;}
+			selectionWidth: function (width) {return width*2.5;},
+            color:{color:'#2B7CE9', hover:'#2B7CE9', highlight: 'red'}
         },
 		interaction: {
           navigationButtons: true,
           keyboard: true,
 		  hover: true,
 		  tooltipDelay: 500,
+          multiselect: true
         }
 	};
     var network = new vis.Network(container, data, options);
