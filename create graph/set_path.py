@@ -1,7 +1,7 @@
 import sys
 import fileinput
 
-python_file = 'create_graph.py'
+python_file = sys.argv[-2]
 path = sys.argv[-1]
 
 with open(python_file, 'r') as file :
