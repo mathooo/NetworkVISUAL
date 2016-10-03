@@ -1,14 +1,14 @@
 import sys
 import fileinput
 
-python_file = sys.argv[-2]
+python_file = 'create_graph.py'
 path = sys.argv[-1]
 
 with open(python_file, 'r') as file :
     filedata = file.read()
 
 # Replace the target string
-filedata = filedata.replace('/home/matho/node_modules/vis/dist/', path)
+filedata = filedata.replace('/home/matho/node_modules/', path)
 
 # Write the file out again
 with open(python_file, 'w') as file:

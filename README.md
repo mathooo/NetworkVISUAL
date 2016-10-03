@@ -7,7 +7,7 @@ Script for visualizing reaction network using vis.js library.
 
 Example:
 
-      python set_path.py create_graph.py "/my/path/before/folder/vis/"
+      python set_path.py "/my/path/before/folder/vis/"
 
 # Usage
 Run script create_graph.py with passed input vertices, edges and output html file.
