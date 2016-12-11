@@ -8,7 +8,7 @@ with open(python_file, 'r') as file :
     filedata = file.read()
 
 # Replace the target string
-filedata = filedata.replace('/home/matho/node_modules/vis/dist/', path)
+filedata = filedata.replace('/home/matho/node_modules/', path)
 
 # Write the file out again
 with open(python_file, 'w') as file:
