@@ -1,0 +1,1846 @@
+vertex ID: 0
+1 FGF(state{i})::cyt
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+vertex ID: 1
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+vertex ID: 2
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 3
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+vertex ID: 4
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 5
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 6
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+vertex ID: 7
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 8
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 FRS2(state{a})::cyt
+vertex ID: 9
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+vertex ID: 10
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 11
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+vertex ID: 12
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 13
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 14
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+vertex ID: 15
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 16
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 17
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 Gab1(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+vertex ID: 18
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 19
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+vertex ID: 20
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 21
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 22
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+vertex ID: 23
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+vertex ID: 24
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 25
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 26
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 27
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 28
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 Gab1(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+vertex ID: 29
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 30
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 31
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+vertex ID: 32
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 33
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+vertex ID: 34
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+vertex ID: 35
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 36
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 37
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 38
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 39
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 40
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 41
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 42
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 43
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 44
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+vertex ID: 45
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 46
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+vertex ID: 47
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 48
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+vertex ID: 49
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 50
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+vertex ID: 51
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 52
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 53
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 54
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 55
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 56
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 57
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 58
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 59
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 60
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 61
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 62
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 63
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+vertex ID: 64
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 65
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 66
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+vertex ID: 67
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 68
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 69
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 70
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 71
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 72
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 73
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 74
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 75
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 76
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 77
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 78
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 79
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 80
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 81
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 82
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 83
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 84
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 85
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 86
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 87
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 88
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 89
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 90
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 91
+1 ERK(state{i})::cyt
+1 GS(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 92
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 93
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 94
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 95
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 96
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 97
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 98
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 99
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 100
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 101
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 102
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 103
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 104
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 105
+1 FRS2(state{i})::cyt
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 106
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 107
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 108
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 109
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 110
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 111
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 112
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 113
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 114
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 115
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 116
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 117
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 118
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 119
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 120
+1 ERK(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{a})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+vertex ID: 121
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 122
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 123
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 124
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{i}).SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 125
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{i}).Gab1(state{a})::cyt
+vertex ID: 126
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 127
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 128
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 129
+1 ERK(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 130
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 131
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 132
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 133
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 134
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 135
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 136
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+vertex ID: 137
+1 FRS2(state{i})::cyt
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+vertex ID: 138
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 139
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 140
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 141
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 142
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 143
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 144
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 145
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 146
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 147
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 148
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 149
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 150
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 151
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 152
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 153
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 154
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+vertex ID: 155
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 156
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 157
+1 FRS2(state{i})::cyt
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 158
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 159
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 160
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 161
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 162
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 163
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{a}).SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 164
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 165
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+vertex ID: 166
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 167
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 168
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 169
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 170
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 171
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 172
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+vertex ID: 173
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+vertex ID: 174
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+vertex ID: 175
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 176
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 177
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 178
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 179
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 180
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 181
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 182
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 183
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 184
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 185
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 186
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 187
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 188
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+vertex ID: 189
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 190
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 191
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 192
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 193
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 194
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 195
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 196
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 197
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 198
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 199
+1 ERK(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 200
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+vertex ID: 201
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 202
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 203
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 204
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 205
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 206
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 207
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+vertex ID: 208
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 209
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 210
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 211
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 212
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 213
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 214
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 215
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 216
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 217
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+vertex ID: 218
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 219
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 220
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 221
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 222
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+vertex ID: 223
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+vertex ID: 224
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 225
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 226
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 227
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 228
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 229
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+vertex ID: 230
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+vertex ID: 231
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 232
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 233
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+vertex ID: 234
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 235
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 236
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 237
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 238
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 239
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 240
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 241
+1 FRS2(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 242
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 243
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 244
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 245
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 246
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a}).SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+vertex ID: 247
+1 Gab1(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+vertex ID: 248
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 249
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 250
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 251
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 252
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 253
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{i}).GS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 254
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+vertex ID: 255
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+vertex ID: 256
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+vertex ID: 257
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 258
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 FGF(state{a}).Gab1(state{a})::cyt
+vertex ID: 259
+1 SHC(state{i})::cyt
+1 Shp2_DS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 260
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 261
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FRS2(state{i}).ERK(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 262
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+vertex ID: 263
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 264
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a})::cyt
+1 FRS2(state{i}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 265
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 266
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{i}).FGF(state{a})::cyt
+vertex ID: 267
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 268
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 269
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 ERK(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 270
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a}).GS(state{i})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 271
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+vertex ID: 272
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 273
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{i}).FGF(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 274
+1 Shp2_DS(state{i})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+vertex ID: 275
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a})::cyt
+1 FRS2(state{a}).FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 276
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 Gab1(state{a}).FGF(state{a})::cyt
+vertex ID: 277
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 GS(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 278
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 279
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a})::cyt
+1 SHC(state{a})::cyt
+1 ERK(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
+vertex ID: 280
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a}).FGF(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 Gab1(state{a}).GS(state{a})::cyt
+vertex ID: 281
+1 Shp2_DS(state{i})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 SHC(state{a}).GS(state{a})::cyt
+1 FGF(state{a})::cyt
+1 Gab1(state{a})::cyt
+vertex ID: 282
+1 Shp2_DS(state{i})::cyt
+1 SHC(state{a})::cyt
+1 FRS2(state{a}).ERK(state{a})::cyt
+1 FGF(state{a})::cyt
+1 GS(state{a}).Gab1(state{a})::cyt
