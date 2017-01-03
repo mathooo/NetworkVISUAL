@@ -2,6 +2,7 @@ import sys
 import copy
 import collections
 from compiler.ast import flatten
+import json
 
 """
 Writes one of the two static parts to output.
@@ -32,8 +33,7 @@ Creates collection from given side
 :return: collection
 """
 def create_collection(side):
-    side = map(lambda x: x.split(" "), side.split(" + "))
-    return collections.Counter(flatten(map(lambda x: [x[1]]*int(x[0]), side)))
+	return collections.Counter(flatten(map(lambda (k, v): [k]*int(v), side.iteritems())))
 
 """
 Removes pairs of same agents from left and right side, i.e. creates a reaction.
@@ -81,73 +81,33 @@ def write_reaction(edge_id, left_index, right_index, From, To, output_file):
     output.close()
 
 
-me = sys.argv[-4]
-vertices_file = sys.argv[-3]
-edges_file = sys.argv[-2]
+me = sys.argv[-3]
+state_space_file = sys.argv[-2]
 output_file = sys.argv[-1]
 
 write_part(me, output_file, "FIRST PART START", "FIRST PART END", "w")
 
-labels = []
-IDs = []
-label = ""
-the_first_time = True
+with open(state_space_file, 'r') as f:
+	data = json.load(f)
+
+IDs = dict()
 vertex_id = 0
-for_edge_label = ""
-ID = 0
-
-'''
-Import vertices
-'''
-with open(vertices_file) as vertices:
-    for line in vertices:
-        line = line.rstrip()
-        if line:
-            if line.find("vertex") != -1:
-                if the_first_time:
-                    the_first_time = False
-                else:
-                    label = label[:-4]
-                    write_entity(vertex_id, ID, label, output_file)
-                    for_edge_label = for_edge_label[:-3]
-                    labels.append(for_edge_label)
-                    for_edge_label = ""
-                    label = ""
-                parts = line.split(" ")
-                ID = parts[2]
-                IDs.append(ID)
-                vertex_id += 1
-            else:
-                label += line.__str__() + "<br>"
-                for_edge_label += line.__str__() + " + "
-
-write_entity(vertex_id, ID, label, output_file)
-for_edge_label = for_edge_label[:-3]
-labels.append(for_edge_label)
+for key, value in data['nodes'].iteritems():
+	vertex_id += 1
+	label = ""
+	for k, v in value.iteritems():
+		label += v + " " + k + "<br>"
+	write_entity(vertex_id, key, label, output_file)
+	IDs[key] = vertex_id
 
 output = open(output_file, 'a')
 output.write("\t]);\n\n\t// create an array with edges\n\tvar edges = new vis.DataSet([\n")
 output.close()
 
-'''
-Import edges
-'''
-edge_id = 0
-with open(edges_file) as edges:
-    for line in edges:
-        line = line.rstrip()
-        edge_id += 1
-        parts = line.split(" ")
-        left_index = IDs.index(parts[0])
-        right_index = IDs.index(parts[2])
-
-        From, To = create_reaction(labels[left_index], labels[right_index])
-
-        left_index += 1
-        right_index += 1
-
-        write_reaction(edge_id, left_index, right_index, From, To, output_file)
-
+for edge_id, value in data['edges'].iteritems():
+	From, To = create_reaction(data['nodes'][value['from']], data['nodes'][value['to']])
+	write_reaction(edge_id, IDs[value['from']], IDs[value['to']], From, To, output_file)
+		
 write_part(me, output_file, "SECOND PART START", "SECOND PART END", "a")
 
 '''
@@ -157,8 +117,8 @@ FIRST PART START
 <head>
     <title>Network | Interaction events</title>
 
-    <script type="text/javascript" src="/home/matho/node_modules/vis/dist/vis.js"></script>
-    <link href="/home/matho/node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/home/matho/vis/dist/vis.js"></script>
+    <link href="/home/matho/vis/dist/vis.css" rel="stylesheet" type="text/css"/>
 
     <style type="text/css">
        #mynetwork {
